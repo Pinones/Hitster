@@ -1,0 +1,62 @@
+.container {
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(1, 1, 6, 1) 21%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  overflow: auto;
+  padding: 25px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  color: white;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+}
+
+qrcode {
+  display: flex;
+  justify-content: center;
+}
+
+.example-card {
+  max-width: 700px;
+  margin: 20px;
+  height: 420px;
+}
+.example-flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+.testarn1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.testarn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lal {
+  display: flex;
+  justify-content: center;
+}
