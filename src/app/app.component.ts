@@ -39,15 +39,11 @@ export class AppComponent implements OnInit {
   clipboard() {
     navigator.clipboard.readText().then((text) => {
       this.url = text.split('/')[4];
-      console.log('i am url', this.url);
       if (this.url.length > 10) {
         this.snackBar.open('Link Valid!', '', { duration: 2000 });
         this.active = true;
-        // console.log(this.dataList);
 
         this.dataList = this.url.items;
-        // console.log(this.dataList);
-
         this.getList();
       } else {
         this.snackBar.open("You didn't add the correct spotify link!", '', {
