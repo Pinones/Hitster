@@ -65,7 +65,7 @@ export class AppComponent implements OnInit {
         },
       })
       .subscribe((data) => {
-        let getList = Object.values(data)[12];
+        let getList = Object.values(data)[11];
         this.dataList = getList.items;
       });
   }
