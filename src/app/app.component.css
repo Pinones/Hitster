@@ -60,6 +60,6 @@ qrcode {
   display: flex;
   justify-content: center;
 }
-h3 {
+.h3 {
   color: yellow;
 }
